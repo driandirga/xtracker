@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3YLNda52/U43jS7WReOLk59dMSI/RXRHrQMz5c6nN28=",
+  "Hash": "SIi1mDp9Eq7xAdueVGCboPnG5Z9bTYdhqAVJ/hg9DhY=",
   "Source": "Expense Traker",
   "BasePath": "_content/Expense Traker",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\favicon_old.ico",
+      "SourceId": "Expense Traker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\",
+      "BasePath": "_content/Expense Traker",
+      "RelativePath": "favicon_old.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon_old.ico"
     },
     {
       "Identity": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\js\\site.js",
@@ -1069,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\Xtracker.png",
+      "SourceId": "Expense Traker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\",
+      "BasePath": "_content/Expense Traker",
+      "RelativePath": "Xtracker.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Xtracker.png"
     }
   ]
 }

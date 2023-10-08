@@ -5,14 +5,14 @@
 }
 
 <div class="row">
-    <div class="col-md-7">
+    <div class="col-md-8">
         <div class="widget p-5">
             <form asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="mb-3">
                     <div class="e-btn-group custom-rbt-group">
-                        <input type="radio" id="radioleft" name="Type" value="Expanse" checked="@(Model.Type=="Expanse")" />
-                        <label class="e-btn" for="radioleft">Expanse</label>
+                        <input type="radio" id="radioleft" name="Type" value="Expense" checked="@(Model.Type=="Expense")" />
+                        <label class="e-btn" for="radioleft">Expense</label>
                         <input type="radio" id="radioright" name="Type" value="Income" checked="@(Model.Type=="Income")" />
                         <label class="e-btn" for="radioright">Income</label>
                     </div>
@@ -32,7 +32,7 @@
             </form>
         </div>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-4">
         <div class="widget h-100 d-flex justify-content-center align-items-center">
             <i class="fa-solid fa-shapes fa-2xl"></i>
         </div>

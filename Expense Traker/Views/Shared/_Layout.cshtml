@@ -35,6 +35,9 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index">Category</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Transaction" asp-action="Index">Transaction</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
@@ -66,6 +69,7 @@
                                                 separatorTemplate="@Html.Raw("<span class='fa-solid fa-angle-right'></span>")"></ejs-breadcrumb>
                             </div>
                         </div>
+                    </div>
                     @RenderBody()
                 </main>
             </div>

@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Expense Traker.bundle.scp.css"
     },
     {
+      "Id": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\Xtracker.png",
+      "PackagePath": "staticwebassets\\Xtracker.png"
+    },
+    {
       "Id": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\favicon_old.ico",
+      "PackagePath": "staticwebassets\\favicon_old.ico"
     },
     {
       "Id": "C:\\Development\\ASP.NET Core\\Expense Traker\\Expense Traker\\wwwroot\\js\\site.js",

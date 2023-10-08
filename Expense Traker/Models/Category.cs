@@ -7,15 +7,17 @@ namespace Expense_Traker.Models
     {
         [Key]
         public int CategoryId { get; set; }
-        
-        [Column(TypeName ="nvarchar(50)")]
-        public String Title { get; set; } = String.Empty;
+
+        [Column(TypeName = "nvarchar(50)")]
+        [Required(ErrorMessage = "Title is required.")]
+        public string Title { get; set; }
 
         [Column(TypeName = "nvarchar(5)")]
-        public String Icon { get; set; } = String.Empty;
+        public string Icon { get; set; } = string.Empty;
 
         [Column(TypeName = "nvarchar(10)")]
-        public String Type { get; set; } = "Expense";
+        public string Type { get; set; } = "Expense";
+
 
         [NotMapped]
         public string? TitleWithIcon 
