@@ -1,0 +1,45 @@
+﻿@model Expense_Traker.Models.Category
+
+@{
+    ViewData["PageTitle"] = "Edit category";
+}
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="widget p-5">
+            <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CategoryId" />
+            <div class="mb-3">
+                <div class="e-btn-group custom-rbt-group">
+                    <input type="radio" id="radioleft" name="Type" value="Expanse" checked="@(Model.Type=="Expanse")" />
+                    <label class="e-btn" for="radioleft">Expanse</label>
+                    <input type="radio" id="radioright" name="Type" value="Income" checked="@(Model.Type=="Income")" />
+                    <label class="e-btn" for="radioright">Income</label>
+                </div>
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <ejs-textbox id="title" placeholder="Title" ejs-for="Title" floatLabelType="Always"></ejs-textbox>
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <ejs-textbox id="icon" placeholder="Icon" ejs-for="Icon" floatLabelType="Always"></ejs-textbox>
+                <span asp-validation-for="Icon" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <ejs-button id="submit" typeof="submit" cssClass="e-success" content="Save"></ejs-button>
+            </div>
+        </form>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="widget h-100 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-shapes fa-2xl"></i>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
